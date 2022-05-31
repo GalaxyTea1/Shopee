@@ -1,159 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-            rel="stylesheet"
-        />
-        <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-        />
-        <link rel="stylesheet" href="./assets/css/main.css" />
-        <link rel="stylesheet" href="./assets/css/base.css" />
-        <title>Shopee</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <title>Shopee</title>
+  </head>
 
-    <body>
-        <div class="app">
-            <header class="header">
-                <div class="grid">
-                    <nav class="header__navbar">
-                        <ul class="header__navbar-list">
-                            <li
-                                class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate"
-                            >
-                                Access App
-                                <div class="header__qr">
-                                    <img
-                                        src="./assets/img/qr.png"
-                                        alt="QR Code"
-                                        class="header__qr-img"
-                                    />
-                                    <div class="header__qr-apps">
-                                        <a href="#" class="header__qr-link">
-                                            <img
-                                                src="./assets/img/apple.png"
-                                                alt="app-store"
-                                                class="header__qr-download-img"
-                                            />
-                                        </a>
-                                        <a href="#" class="header__qr-link">
-                                            <img
-                                                src="./assets/img/chplay.png"
-                                                alt="ch-play"
-                                                class="header__qr-download-img"
-                                            />
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="header__navbar-item">
-                                <span class="header__navbar-title--no-pointer">Connect</span>
-                                <a href="#" class="header__navbar-icon-link">
-                                    <i class="header__navbar-icon bx bxl-facebook-circle"></i>
-                                </a>
-                                <a href="#" class="header__navbar-icon-link">
-                                    <i class="header__navbar-icon bx bxl-instagram-alt"></i>
-                                </a>
-                            </li>
-                        </ul>
-
-                        <ul class="header__navbar-list">
-                            <li class="header__navbar-item header__navbar-item--has-notify">
-                                <a href="#" class="header__navbar-item-link">
-                                    <a href="#" class="header__navbar-icon-link">
-                                        <i class="header__navbar-icon bx bx-bell"></i> </a
-                                    >Nofitication
-                                </a>
-                                <div class="header__notify">
-                                    <header class="header__notify-header">
-                                        <h3>Recent Nofitication</h3>
-                                    </header>
-                                    <ul class="header__notify-list">
-                                        <li class="header__notify-item header__notify-item--viewed">
-                                            <a href="" class="header__notify-link">
-                                                <img
-                                                    src="./assets//img/giayvainu.jfif"
-                                                    alt=""
-                                                    class="header__notify-img"
-                                                />
-                                                <div class="header__notify-info">
-                                                    <span class="header__notify-name"
-                                                        >Giày Vải Nữ</span
-                                                    >
-                                                    <span class="header__notify-description"
-                                                        >Giày vải nữ đẹp mê ly</span
-                                                    >
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="'header__notify-item">
-                                            <a href="" class="header__notify-link">
-                                                <img
-                                                    src="./assets/img/giaythethaonu.jfif"
-                                                    alt=""
-                                                    class="header__notify-img"
-                                                />
-                                                <div class="header__notify-info">
-                                                    <span class="header__notify-name"
-                                                        >Giày thể thao nữ</span
-                                                    >
-                                                    <span class="header__notify-description"
-                                                        >Nhiều ưu đãi hấp dẫn</span
-                                                    >
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="'header__notify-item">
-                                            <a href="" class="header__notify-link">
-                                                <img
-                                                    src="./assets/img/sneakerHapas.jfif"
-                                                    alt=""
-                                                    class="header__notify-img"
-                                                />
-                                                <div class="header__notify-info">
-                                                    <span class="header__notify-name"
-                                                        >Giày Sneaker</span
-                                                    >
-                                                    <span class="header__notify-description"
-                                                        >Sneaker Hapas chất lượng</span
-                                                    >
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <footer class="header__notify-footer">
-                                        <a href="" class="header__notify-footer-btn">See all</a>
-                                    </footer>
-                                </div>
-                            </li>
-
-                            <li class="header__navbar-item">
-                                <a href="#" class="header__navbar-item-link">
-                                    <a href="#" class="header__navbar-icon-link">
-                                        <i class="header__navbar-icon bx bx-help-circle"></i> </a
-                                    >Help
-                                </a>
-                            </li>
-                            <li
-                                class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"
-                            >
-                                Sign Up
-                            </li>
-                            <li class="header__navbar-item header__navbar-item--strong">Sign In</li>
-                        </ul>
-                    </nav>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="grid">
+          <nav class="header__navbar">
+            <ul class="header__navbar-list">
+              <li
+                class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate"
+              >
+                Access App
+                <div class="header__qr">
+                  <img src="./assets/img/qr.png" alt="QR Code" class="header__qr-img" />
+                  <div class="header__qr-apps">
+                    <a href="#" class="header__qr-link">
+                      <img
+                        src="./assets/img/apple.png"
+                        alt="app-store"
+                        class="header__qr-download-img"
+                      />
+                    </a>
+                    <a href="#" class="header__qr-link">
+                      <img
+                        src="./assets/img/chplay.png"
+                        alt="ch-play"
+                        class="header__qr-download-img"
+                      />
+                    </a>
+                  </div>
                 </div>
-            </header>
-            <div class="container"></div>
-            <footer class="footer"></footer>
+              </li>
+              <li class="header__navbar-item">
+                <span class="header__navbar-title--no-pointer">Connect</span>
+                <a href="#" class="header__navbar-icon-link">
+                  <i class="header__navbar-icon bx bxl-facebook-circle"></i>
+                </a>
+                <a href="#" class="header__navbar-icon-link">
+                  <i class="header__navbar-icon bx bxl-instagram-alt"></i>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item header__navbar-item--has-notify">
+                <a href="#" class="header__navbar-item-link">
+                  <a href="#" class="header__navbar-icon-link">
+                    <i class="header__navbar-icon bx bx-bell"></i> </a
+                  >Nofitication
+                </a>
+                <div class="header__notify">
+                  <header class="header__notify-header">
+                    <h3>Recent Nofitication</h3>
+                  </header>
+                  <ul class="header__notify-list">
+                    <li class="header__notify-item header__notify-item--viewed">
+                      <a href="" class="header__notify-link">
+                        <img src="./assets//img/giayvainu.jfif" alt="" class="header__notify-img" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">Giày Vải Nữ</span>
+                          <span class="header__notify-description">Giày vải nữ đẹp mê ly</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="'header__notify-item">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="./assets/img/giaythethaonu.jfif"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">Giày thể thao nữ</span>
+                          <span class="header__notify-description">Nhiều ưu đãi hấp dẫn</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="'header__notify-item">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="./assets/img/sneakerHapas.jfif"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">Giày Sneaker</span>
+                          <span class="header__notify-description">Sneaker Hapas chất lượng</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <footer class="header__notify-footer">
+                    <a href="" class="header__notify-footer-btn">See all</a>
+                  </footer>
+                </div>
+              </li>
+
+              <li class="header__navbar-item">
+                <a href="#" class="header__navbar-item-link">
+                  <a href="#" class="header__navbar-icon-link">
+                    <i class="header__navbar-icon bx bx-help-circle"></i> </a
+                  >Help
+                </a>
+              </li>
+              <li
+                class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"
+              >
+                Sign Up
+              </li>
+              <li class="header__navbar-item header__navbar-item--strong">Sign In</li>
+            </ul>
+          </nav>
         </div>
-    </body>
+      </header>
+      <div class="container"></div>
+      <footer class="footer"></footer>
+    </div>
+    <!-- Modal layout -->
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body">
+        <!-- Authen form -->
+        <div class="auth-form">
+          <div class="auth-form__container">
+            <div class="auth-form__header">
+              <h3 class="auth-form__heading">Register</h3>
+              <span class="auth-form__switch-btn">Login</span>
+            </div>
+            <div class="auth-form__form">
+              <div class="auth-form_group">
+                <input type="text" placeholder="Enter your email" class="auth-form__input" />
+              </div>
+              <div class="auth-form_group">
+                <input type="password" placeholder="Enter your password" class="auth-form__input" />
+              </div>
+              <div class="auth-form__controll">
+                <button class="btn">BACK</button>
+                <button class="btn btn--primary">REGISTER</button>
+              </div>
+              <div class="auth-form__socials">
+                <a class="btn btn--with-icon" href="">
+                  <i class="bx bxl-facebook">Connect with Facebook</i>
+                </a>
+                <a class="btn btn--with-icon" href="">
+                  <i class="bx bxl-google">Connect with Google</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
